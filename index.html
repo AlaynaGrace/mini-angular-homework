@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Homework</title>
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Angular Homework</h1>
+    <div ng-controller="myController as mc">
+      <p>{{mc.firstText}}</p>
+      <p>{{mc.secondText}}</p>
+      {{mc.tryThis}}
+      <br>
+      <input ng-model="mc.text" type="text" name="" value="">
+      <p>{{mc.text}}</p>
+    </div>
+  </body>
+</html>
